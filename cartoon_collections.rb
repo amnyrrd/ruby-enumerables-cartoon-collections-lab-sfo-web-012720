@@ -7,6 +7,7 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(planeteer_calls)
+  base = false
   planeteer_calls.map do |call| 
     if call.length > 4 
       return true
