@@ -21,8 +21,6 @@ def find_the_cheese(ingredients)
   ingredients.find do |ing|
     if cheese_types.include?(ing)
       return ing
-    else
-      return nil
     end
   end
 end
