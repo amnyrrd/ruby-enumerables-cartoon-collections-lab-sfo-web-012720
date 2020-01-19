@@ -13,7 +13,7 @@ def long_planeteer_calls(planeteer_calls)
       long = true
     end
   end
-  base
+  long
 end
 
 def find_the_cheese(ingredients)
