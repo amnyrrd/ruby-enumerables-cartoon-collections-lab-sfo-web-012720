@@ -10,11 +10,10 @@ def long_planeteer_calls(planeteer_calls)
   base = false
   planeteer_calls.map do |call| 
     if call.length > 4 
-      return true
-    else 
-      return false
+      base = true
     end
   end
+  base
 end
 
 def find_the_cheese(ingredients)
